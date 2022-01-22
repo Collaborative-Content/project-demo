@@ -1,0 +1,17 @@
+.text-box {
+  margin-top: 10px;
+  border: 5px;
+  border-color: blue;
+  padding: 10%;
+}
+
+.btn {
+  fill: green;
+  margin: 5px;
+  padding-left : 10px;
+  padding-right: 10px;
+  border-radius: 3em;
+  border-width: 3px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+}

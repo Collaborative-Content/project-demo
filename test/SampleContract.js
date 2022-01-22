@@ -9,10 +9,10 @@ describe("Sample Contract", () => {
         sampleContract = await SampleContract.deploy();
     });
 
-    it("emit greeting event when greet function is called", async () => {
+    it("changing the test description", async () => {
         expect(sampleContract.greet())
             .to
-            .emit(sampleContract, "Greet")
+            .emit(sampleContract, "Hello")
             .withArgs("Hello World!");
     });
 
